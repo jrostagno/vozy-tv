@@ -2,9 +2,9 @@
 import React from "react";
 import styles from "./Avatar.module.css";
 
-const Avatar = () => {
+const Avatar = ({ w, h }) => {
   return (
-    <div className={styles.avatar}>
+    <div style={{ width: `${w}`, height: `${h}` }} className={styles.avatar}>
       <img
         src="./tamila.jpg"
         style={{ width: "100%", height: "100%" }}

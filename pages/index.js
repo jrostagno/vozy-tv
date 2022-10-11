@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-
 import Layout from "../components/Layout/Layout";
 
 export default function Home() {

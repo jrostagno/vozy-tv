@@ -1,0 +1,13 @@
+.userInformation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.subInfo {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  color: lightslategray;
+}
