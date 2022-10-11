@@ -10,7 +10,7 @@
 }
 
 .main {
-  background-color: red;
+  background-color: #f3f4f6;
   flex-grow: 1;
   padding: 50px;
 }
