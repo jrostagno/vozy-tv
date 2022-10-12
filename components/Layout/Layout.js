@@ -1,15 +1,26 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import Section from "../Section/Section";
+import LateralNav from "../LateralNav/LateralNav";
 import styles from "./Layout.module.css";
 
-const Layout = ({ children }) => {
+const Layout = ({
+  children,
+  session,
+  handleChange,
+  allTvShow,
+  setFilteredShows,
+}) => {
   return (
     <div className={styles.container}>
-      <Section />
+      <LateralNav allTvShow={allTvShow} setFilteredShows={setFilteredShows} />
       <div className={styles.mainContainer}>
-        <Navbar />
+        <Navbar
+          handleChange={handleChange}
+          allTvShow={allTvShow}
+          setFilteredShows={setFilteredShows}
+          session={session}
+        />
         <main className={styles.main}>{children}</main>
         <Footer />
       </div>

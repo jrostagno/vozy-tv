@@ -11,6 +11,7 @@
 
 .main {
   background-color: #f3f4f6;
+  background: #e0e0e0;
   flex-grow: 1;
   padding: 50px;
 }

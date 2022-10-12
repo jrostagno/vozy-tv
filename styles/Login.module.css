@@ -1,0 +1,28 @@
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.loginpanel {
+  text-align: center;
+  padding: 100px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.btnContent {
+  display: flex;
+  color: #065f46;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.5rem;
+}
+
+.fagithub {
+  color: #065f46;
+}
